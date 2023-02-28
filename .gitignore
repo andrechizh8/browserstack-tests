@@ -1,0 +1,12 @@
+*.pyc
+__pycache__/
+mobile-tests-13-py/.pytest_cache/
+.idea
+.python-version
+reports/
+config.personal.env
+*.log
+demo
+browserstack_sample.py
+allure-results
+.env
