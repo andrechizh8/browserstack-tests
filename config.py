@@ -48,7 +48,7 @@ class Settings(pydantic.BaseSettings):
                         'projectName': os.getenv('PROJECTNAME'),
                         'buildName': os.getenv('BUILDNAME'),
                         'sessionName': os.getenv('SESSIONNAME'),
-                        'userName': os.getenv('MY_NAME'),
+                        'userName': os.getenv('USER_NAME'),
                         'accessKey': os.getenv('ACCESSKEY'),
                     },
                 }
